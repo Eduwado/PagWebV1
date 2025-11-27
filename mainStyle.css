@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+
+.imagem-contaneir{
+    position: relative;
+    display: inline-block;
+}
+
+.imagem-contaneir > img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.box{
+    position: absolute;
+    color: white;
+    height: 250px;
+    display: flex;
+
+}
+
+.cube{
+    border-style: solid;
+    border-color: white;
+    height: 100px;
+    width: 100px;
+}
